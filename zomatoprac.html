@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zomato.css">
+</head>
+
+<body>
+
+    <div class="div-box">
+        <div class="navbar">
+            <div class="logo-zom">
+                <img src="logo.avif" alt="" class="zomato-logo">
+            </div>
+            <div class="search-bar">
+                <div class="border">
+                    <div class="search-box">
+                        <img src="placeholder.png" alt="" height="20px" class="location-img">
+                        <input type="text" placeholder="Dindigul" class="location-text">
+                        <select name="" id="" class="srch-loc"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="search-bar2">
+                <div class="border2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                    <p class="margin">Search for Restaurants,cuisines or a dishes</p>
+                </div>
+            </div>
+            <div class="login-div">
+                <div class="div-1">
+                    <p>Login</p>
+                </div>
+                <div class="div-2">
+                    <p>signup</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="desc-bar">
+            <div class="topics">
+                <p>Home </p>
+            </div>
+            <div class="topics">
+                <p> / India /</p>
+            </div>
+            <div class="topics">
+                <p> Dindigul/</p>
+            </div>
+            <div class="topics last">
+                <p>Dosa Restaurants </p>
+            </div>
+        </div>
+        <div class="img-box">
+            <div class="img-section">
+                <div class="div">
+                    <img src="dining.jpg" alt="" class="img-class" height="60" width="60">
+                    <p class="dine-p">Dining Out</p>
+                </div>
+            </div>
+            <div class="img-section">
+                <div class="div">
+                    <img src="scooter.webp" alt="" class="img-class" height="40" width="40">
+                    <p class="para-img">Dining Out</p>
+                </div>
+            </div>
+            <div class="img-section">
+                <div class="div">
+                    <img src="nightlife.webp" alt="" class="img-class" height="40" width="40">
+                    <p class="para-img">Dining Out</p>
+                </div>
+            </div>
+        </div>
+        <div class="boxes-box">
+            <div class="box-1">
+                <button class="first-1">Filters</button>
+            </div>
+            <div class="box-2">
+                <button class="first-2">Dosa
+                    <svg lclass="logoss" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-x" viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                    </svg>
+                </button>
+            </div>
+            <div class="box-3">
+                <button class="first-3">Rating:4.0+</button>
+            </div>
+            <div class="box-4">
+                <button class="first-4">Pure veg</button>
+            </div>
+            <div class="box-5">
+                <select name="" id="" class="first-5">
+                    <option value="">cuisines</option>
+                </select>
+            </div>
+        </div>
+        <div class="div-header">
+            <p class="delivery-abt"><strong> Delivery Restaurants in Dindigul </strong></p>
+        </div>
+        <div class="flexcontainer">
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?burger" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>Burger</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?dosa" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>dosa</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?juice" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>juice</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?salad" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>salad</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?noodles" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>nooodles</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?pepsi" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>pepsi</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?sandwich" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>sandwich</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?roti" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>chappathi</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?frenchfries" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>fries</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <img src="https://source.unsplash.com/800x800/?briyani" alt="" class="img">
+                    <div class="absolute-rating">
+                        4.3 (432 votes)
+                    </div>
+                    <div class="bookmark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-bookmark-heart" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" />
+                            <path
+                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z" />
+                        </svg>
+                    </div>
+                    <div class="info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="price-desc">
+                    <h2>briyani</h2>
+                    <p>Rs 160</p>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat maiores quisquam fuga atque!</p>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
