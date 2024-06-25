@@ -322,3 +322,83 @@ input {
     color: rgb(105, 105, 105);
     font-size: 20;
 }
+.footer-select{
+    border: none;
+}
+.footer-para{
+    font-weight: 400;
+    color:rgb(105, 105, 105);
+    font-size: 20px;
+    line-height: 26px;
+}
+.last-footer{
+    width:1170px;
+    margin: 0px auto;
+    margin-top: 80px;
+}
+.zomato-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.zomato2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.india-english{
+    width: 109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 2px 7px;
+    border-radius: 12px;
+}
+
+select{
+    border: none;
+}
+.finalfooter{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.about-zomato,.zomaverse,.forrestaurants,.learnmore,.Sociallinks{
+    display: flex;
+    flex-direction: column;
+   
+}
+.abtzom{
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.div1{
+    padding: 0;
+    color: rgb(105, 105, 105);
+}
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div2{
+    margin-top: 15px;
+}
+.foot{
+    border-top: 1px solid lightgray;
+    width: 100%;
+    padding-top: 20px;
+}
+small{
+
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+}
